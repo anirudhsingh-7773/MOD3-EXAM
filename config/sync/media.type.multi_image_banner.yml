@@ -1,0 +1,13 @@
+uuid: 3060275d-5acc-40ab-b0df-79caf5df464c
+langcode: en
+status: true
+dependencies: {  }
+id: multi_image_banner
+label: 'Multi-Image Banner'
+description: ''
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image_3
+field_map: {  }

@@ -1,0 +1,14 @@
+uuid: 35993c6b-b886-4bed-9436-f233cd82f58e
+langcode: en
+status: true
+dependencies: {  }
+name: teaser_50x50
+label: 'Teaser (50x50)'
+effects:
+  ca84392e-7e24-4cc9-8e11-7ef6b4f00077:
+    uuid: ca84392e-7e24-4cc9-8e11-7ef6b4f00077
+    id: image_resize
+    weight: 1
+    data:
+      width: 50
+      height: 50

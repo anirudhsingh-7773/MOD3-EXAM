@@ -1,0 +1,8 @@
+uuid: 252af30c-ac73-4491-8d79-c578adb1bdb7
+langcode: en
+status: true
+dependencies: {  }
+id: hero-menu
+label: 'Hero Menu'
+description: 'Menu for the hero region'
+locked: false

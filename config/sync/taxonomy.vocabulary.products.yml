@@ -1,0 +1,9 @@
+uuid: 90e690f0-5baf-4b0b-ac6e-3a44ecb314d2
+langcode: en
+status: true
+dependencies: {  }
+name: Products
+vid: products
+description: 'Taxonomy for products'
+weight: 0
+new_revision: false

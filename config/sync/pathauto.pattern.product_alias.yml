@@ -1,0 +1,22 @@
+uuid: 84da13bf-1f57-4d55-90d9-8e5c355cf97d
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: product_alias
+label: 'Product alias'
+type: 'canonical_entities:taxonomy_term'
+pattern: '/[term:name]'
+selection_criteria:
+  4084d9e4-9f93-46d1-85c6-ae974d467b19:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    uuid: 4084d9e4-9f93-46d1-85c6-ae974d467b19
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      products: products
+selection_logic: and
+weight: -5
+relationships: {  }

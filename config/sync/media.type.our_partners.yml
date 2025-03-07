@@ -1,0 +1,13 @@
+uuid: 541bd1b3-feb0-4aa7-9ceb-f9561f060aa9
+langcode: en
+status: true
+dependencies: {  }
+id: our_partners
+label: 'Our Partners'
+description: 'List of partners of the company.'
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image_1
+field_map: {  }

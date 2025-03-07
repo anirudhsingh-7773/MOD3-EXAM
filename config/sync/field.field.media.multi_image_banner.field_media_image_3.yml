@@ -1,0 +1,38 @@
+uuid: 775bb7be-ec93-4f14-a4b5-9de31ff9a2be
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_image_3
+    - media.type.multi_image_banner
+  module:
+    - image
+id: media.multi_image_banner.field_media_image_3
+field_name: field_media_image_3
+entity_type: media
+bundle: multi_image_banner
+label: Image
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg webp'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image
