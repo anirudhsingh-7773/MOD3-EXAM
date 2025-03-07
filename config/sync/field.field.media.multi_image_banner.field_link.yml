@@ -1,0 +1,23 @@
+uuid: 207862f9-84a0-4215-9275-18c95cc2bdd8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_link
+    - media.type.multi_image_banner
+  module:
+    - link
+id: media.multi_image_banner.field_link
+field_name: field_link
+entity_type: media
+bundle: multi_image_banner
+label: Link
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

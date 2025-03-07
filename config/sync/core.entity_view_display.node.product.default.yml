@@ -1,0 +1,95 @@
+uuid: 02b517ec-2b77-4fd4-acaf-2d636d8307c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.product.field_features
+    - field.field.node.product.field_product_gallery
+    - node.type.product
+  module:
+    - image
+    - layout_builder
+    - layout_discovery
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: false
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+          context_mapping: {  }
+        components:
+          38f94efe-abfc-4425-9f2e-ca3d8ea45b83:
+            uuid: 38f94efe-abfc-4425-9f2e-ca3d8ea45b83
+            region: content
+            configuration:
+              id: 'field_block:node:product:field_features'
+              label: Features
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: text_default
+                label: above
+                settings: {  }
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          42c206f8-aa4a-4c3b-af78-2dff6d640ef5:
+            uuid: 42c206f8-aa4a-4c3b-af78-2dff6d640ef5
+            region: content
+            configuration:
+              id: 'field_block:node:product:field_product_gallery'
+              label: 'Product Gallery'
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: image
+                label: above
+                settings:
+                  image_link: content
+                  image_style: medium
+                  image_loading:
+                    attribute: lazy
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+        third_party_settings: {  }
+id: node.product.default
+targetEntityType: node
+bundle: product
+mode: default
+content:
+  field_features:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_product_gallery:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

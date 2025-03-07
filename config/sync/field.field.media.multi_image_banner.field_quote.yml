@@ -1,0 +1,22 @@
+uuid: 66b718f6-73d6-4656-ad9b-294da81757a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_quote
+    - media.type.multi_image_banner
+  module:
+    - text
+id: media.multi_image_banner.field_quote
+field_name: field_quote
+entity_type: media
+bundle: multi_image_banner
+label: Quote
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long
